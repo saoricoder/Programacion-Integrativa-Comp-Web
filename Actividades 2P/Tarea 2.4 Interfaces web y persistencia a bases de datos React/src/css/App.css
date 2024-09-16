@@ -1,0 +1,33 @@
+.menu__login {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.login__boton {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: var(--color_text-link);
+  border: 1px solid var(--color_text-link);
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  text-align: center;
+  height: 30px;
+}
+.login__boton:hover {
+  color: #ffffff;
+  border: none;
+  background: var(--color_text-link);
+}
+.disable__logout {
+  display: none;
+}
+.disable__login {
+  display: none;
+}
+.titulo {
+  font-size: 2em;
+  text-align: center;
+}
