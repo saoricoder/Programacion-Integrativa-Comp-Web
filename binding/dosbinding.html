@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Binding ejemplo one two</title>
+    <script src="dosbinding.js" defer></script>
+</head>
+<body>
+    <h1>Data Binding Ejemplo one two 1 y 2</h1>
+
+    <form id="dataForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age">
+        <br>
+        <button type="button" onclick="one_binding()">One-Way Binding</button>
+        <button type="button" onclick="two_binding()">Two-Way Binding</button>
+    </form>
+
+    <div id="oneWayBindingOutput">
+        <h2>One-Way Binding Output</h2>
+        <p id="oneWayName">Nombre: </p>
+        <p id="oneWayAge">Edad: </p>
+    </div>
+
+    <div id="twoWayBindingOutput">
+        <h2>Two-Way Binding Output</h2>
+        <p id="twoWayName">Nombre: </p>
+        <p id="twoWayAge">Edad: </p>
+    </div>
+</body>
+</html>
